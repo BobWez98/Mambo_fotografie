@@ -50,7 +50,7 @@
                     <p>Alle genoemde bedragen zijn exclusief 21% BTW.
 
                         Afdrukken van foto�s kunnen, tegen meerprijs en in verschillende formaten, via de website van Mambofotografie worden besteld.
-                        Als u geen afdruk(ken) wilt, kun je voor de download-optie kiezen of voor een usb-stick tegen meerprijs.
+                        Als u geen afdruk(ken) wilt, kunt u voor de download-optie kiezen of voor een usb-stick tegen meerprijs.
 
                         - Alle prijzen genoemd bij de bestel/afdruk service zijn inclusief 21% BTW.
 
