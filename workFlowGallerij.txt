@@ -1,0 +1,8 @@
+Workflow - gallerij
+
+Bij het uploaden word er aangegeven in welke map
+de afbeelding moet komen: portretten, huwelijken of natuurfoto's.
+
+na het selecteren van een afbeelding word het directory path gewijzigd naar de map waar de opgevraagde afbeeldingen staan.
+
+deze iteraten we met een foreach loop uit naar de gallerij.
