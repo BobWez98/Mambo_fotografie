@@ -10,7 +10,7 @@
                     <li data-app-prevent-settings="" data-target="#slider3-h" class="" data-slide-to="1"></li>
                     <li data-app-prevent-settings="" data-target="#slider3-h" data-slide-to="2"></li>
                 </ol>
-                
+                <div class="carousel-inner" role="listbox">
                 
                 
                 <?php 
@@ -19,22 +19,22 @@
                 
                         
                 
-                        $dir = "./assets/carousel-items/";
+                        $dir = "./assets/carousel-item/";
                         $exclude = array( ".","..","error_log","_notes" );
                         if (is_dir($dir)) {
                         $images = scandir($dir);
                         foreach(array_slice($images, 2) as $image){
                         if(!in_array($images,$exclude)){
                                 echo '
-                                    <div class="mbr-section mbr-section-hero carousel-item dark center active" data-bg-video-slide="false">
-                                      <div class="mbr-table-cell">
-                                          <div class="mbr-overlay" style="opacity: 0.6;"></div>
-                                            <div class="container-slide">
-                                              <img src="'.$dir.$file.'">
-                                            </div>
-                                        </div>
+                                <div class="mbr-section mbr-section-hero carousel-item dark center" data-bg-video-slide="false">
+                                  <div class="mbr-table-cell">
+                                    <div class="mbr-overlay"></div>
+                                      <div class="container-slide">
+                                         <img src="'.$dir.$image.'">
                                     </div>
-                                </div>'; 
+                                </div>
+                            </div>
+                '; 
                                 } 
                             }
                         }
@@ -47,7 +47,7 @@
                 
                 
                 
-                <div class="carousel-inner" role="listbox">
+                
                     <div class="mbr-section mbr-section-hero carousel-item dark center active" data-bg-video-slide="false">
                         <div class="mbr-table-cell">
                             <div class="mbr-overlay" style="opacity: 0.6;"></div>
@@ -61,36 +61,6 @@
                                             <a class="btn btn-lg btn-warning" href="#Section-Gallerij">Gallerij</a>
                                             <a class="btn btn-lg btn-warning" href="Login.php">Login</a> 
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mbr-section mbr-section-hero carousel-item dark center" data-bg-video-slide="false">
-                      <div class="mbr-table-cell">
-                        <div class="mbr-overlay"></div>
-                          <div class="container-slide">
-                             <img src="assets\images\bridge55.jpg">
-                              <div class="row">
-                                <div class="col-md-8 col-md-offset-1">
-                                  <h2 class="mbr-section-title display-1"></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                    <div class="mbr-section mbr-section-hero carousel-item dark center" data-bg-video-slide="false">
-                        <div class="mbr-table-cell">
-                            <div class="mbr-overlay"></div>
-                            <div class="container-slide">
-                                <img src="assets/images/foto_3.jpg">
-                                <div class="row">
-                                    <div class="col-md-8 col-md-offset-3 text-xs-right">
-                                        <h2 class="mbr-section-title display-1"></h2>
-                                        <p class="mbr-section-lead lead"></p>
-
-                                        
                                     </div>
                                 </div>
                             </div>
