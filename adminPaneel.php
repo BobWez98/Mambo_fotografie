@@ -15,6 +15,8 @@ include("./includes/header.php");
 <div class="container-fluid">
   <div class="row" style="padding-top:90px;">
       <div class="col-md-6 col-md-offset-3">
+          <h1>gallerij aanpassingen</h1>
+          <div class="well">
       <!--verwijderen foto vanaf hier-->
 
       <form class="form-group" method="POST" action="adminPaneel.php">
@@ -160,8 +162,69 @@ echo "</ul>";
           </div>
 
       </form>
-
+  </div>
 </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+        <h1>Aanpassingen slideshow</h1>
+        <div class="well">
+            <form class="form-group" method="POST" action="uploadKarousel.php" enctype="multipart/form-data">
+                <h1>Upload een foto!</h1>
+                <div class="well">
+                    <div class="form-group" style="position: static;">
+
+
+
+                    </div>
+
+                    <div class="form-group" style="position: static;">
+                        <label class="form-control-label" for="fileToUpload">Selecteer een foto:</label>
+                        <input class="form-control" type="file" name="fileToUpload" id="fileToUpload">
+
+                    </div>
+                    <div class="form-group" style="padding-right: 20px; position: static;">
+
+                        <input class="form-control" type="submit" value="Upload Image" name="submit">
+                    </div>
+                </div>
+
+
+            </form>
+
+            <form class="form-group" method="POST" action="karouselVerwijderen.php">
+                <h1>Verwijder een slideshow item!</h1>
+                <div class="well">
+                    <div class="form-group">
+                        <label for="albumVerwijder">Selecteer het Item die verwijderd moet worden</label>
+                        <select class="form-control" name="karouselVerwijder">
+                            <?php
+                            $dir4 = scandir("./assets/carousel-item");
+
+                            foreach(array_slice($dir4, 2) as $album){
+                                echo"<option>". $album ."</option>";
+                            }
+
+                            var_dump($dir4);
+                            ?>
+
+                        </select>
+
+                        <input class="form-control" type="submit" value="verwijder item">
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
 </div>
 <script>
 

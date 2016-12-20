@@ -100,11 +100,11 @@
 
                 <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="#slider3-h">
                     <span class="icon-prev" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">Vorige</span>
                 </a>
                 <a data-app-prevent-settings="" class="right carousel-control" role="button" data-slide="next" href="#slider3-h">
                     <span class="icon-next" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">Volgende</span>
                 </a>
             </div>
         </div>
@@ -117,7 +117,7 @@
                     <h1 style="font-size: 60px"> Over </h1> <br />
                     <img src="visitekaartje%20blank%20org.jpg"><br /> <br />
                 
-                    <div class="col-md-6 col-md-offset-3">
+                    <div class="col-md-6 col-md-offset-3"> 
                         <div class="" style="border: 6px solid #f3c649">
                     <p> 
                         <br />
@@ -147,19 +147,28 @@
      <section id="gallery">
     <div class="gallery">
    
-        <div class="container-fluid">
+        <div class="container">
 
         <div class="row">
+<<<<<<< HEAD
+            <div class="col-lg-12>
+                <center><h1 class="page-header">Fotogallerij</h1></center>
+=======
             <div class="col-lg-12">
-                <h1 class="page-header">Thumbnail Gallery</h1>
+                <h1 class="page-header">Fotogallerij</h1>
             </div>
+>>>>>>> 199c61d4b78b69c6f7d1678883365d8a12a85a1c
             
+            <br />
+            <br />
             <div>
                 <ul class="nav nav-tabs" role="tablist" >
                 <li class="active" role="presentation"><a class="btn btn-warning btn-xs" href="#huwelijken" aria-controls="home" role="tab" data-toggle="tab">Portretten</a></li>
                 <li role="presentation"><a class="btn btn-warning btn-xs" href="#portretten" aria-controls="profile" role="tab" data-toggle="tab">Huwelijken</a></li>
             </div>
-            
+                </div>
+            <br />
+            <br />
             <div class="tab-content">
                 
                 <div role="tabpanel" class="tab-pane" id="huwelijken">
@@ -213,7 +222,7 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <h1> Tarieven </h1> <br />
+                <center> <h1> Tarieven </h1></center> <br />
                 
                     <!-- Nav tabs -->
                     
@@ -225,34 +234,34 @@
                             <li role="presentation"><a class="btn btn-warning btn-xs" href="#Bedrijfsportretten" aria-controls="settings" role="tab" data-toggle="tab">Bedrijfsportretten</a></li>
                             <li role="presentation"><a class="btn btn-warning btn-xs" href="#Let_op" aria-controls="settings" role="tab" data-toggle="tab">Let op!</a></li>
                         </ul>
-
+                
             
             <br /> <br />
                             <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane" id="Trouwreportages" style="25 px">
+                                <div role="tabpanel" class="tab-pane" id="Trouwreportages" style= font-size:"25px">
                                     <h3 style="font-size: 25px;">Trouwreportages</h3>
                                     <p>Informeer vrijblijvend naar onze voordelige tarieven voor het
                                     maken van een trouwreportage.<br /> Wij geven jullie graag advies over de
                                     diverse mogelijkheden.</p>
                                 </div>
-                                <div role="tabpanel" class="tab-pane" id="Portretfotografie" style="25 px">
+                                <div role="tabpanel" class="tab-pane" id="Portretfotografie" stylefont-size:="25px">
                                     <h3 style="font-size: 25px;">Portretfotografie</h3>
                                     <p>In de studio of op locatie 1-5 personen: <br />
                                     Met 1-5 personen € 75,- ca 1 uur fotografie,
                                     minimaal 5 nabewerkte foto’s (groeps- en singlefoto’s) in hoge
                                     resolutie.</p>
                                 </div>
-                                <div role="tabpanel" class="tab-pane" id="Familie" style="25 px">
+                                <div role="tabpanel" class="tab-pane" id="Familie" style=font-size:"25px">
                                     <h3 style="font-size: 25px;">Familie en Gezin</h3>
                                     Ouders, kinderen en opa & oma € 85,- ca 1 uur fotografie,
                                     minimaal 5 nabewerkte foto’s (groeps- en singlefoto’s) in hoge resolutie.
                                 </div>
-                                <div role="tabpanel" class="tab-pane" id="Zwanger" style="25 px">
+                                <div role="tabpanel" class="tab-pane" id="Zwanger" style=font-size:"25px">
                                     <h3 style="font-size: 25px;">Zwangerschapsshoots</h3>
                                     <p>€ 85,- per uur het aantal foto's is afhankelijk van de duur van de shoot,
                                         met een minimum van 5 nabewerkte foto's in hoge resolutie.</p>
                                 </div>
-                                <div role="tabpanel" class="tab-pane" id="Bedrijfsportretten" style="25 px">
+                                <div role="tabpanel" class="tab-pane" id="Bedrijfsportretten" style=font-size:"25px">
                                     <h3 style="font-size: 25px;">Bedrijfsportretten</h3>
                                     <p>Bedrijfsportretten op locatie vanaf € 75,-.
                                         Een portret van al uw medewerkers (bijv. voor in uw brochure of op uw website)

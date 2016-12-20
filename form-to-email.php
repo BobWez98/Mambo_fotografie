@@ -2,7 +2,7 @@
 // controleren of het formulier überhaupt is ingevuld
 if(!isset($_POST['submit']))
 {
-    echo "Error, u moet eerst het formulier invullen!";
+    echo "U moet eerst het formulier invullen!";
 }
 $naam  = $_POST['naam'];
 $email  = $_POST['email'];
@@ -11,12 +11,12 @@ $bericht  = $_POST['bericht'];
 // valideren of er iets is ingevuld
 if (empty($naam) || empty($email) || empty($bericht))
 {
-    echo "Vergeet niet uw naam, email of bericht in te vullen!";
+    echo "Vergeet niet uw naam en email in te vullen, plus een bericht achter te laten!";
     exit;
 }
 
 $email_from = "info@mambofotografie.nl";
-$email_subject = "Nieuw bericht na invullen formulier";
+$email_subject = "Nieuw bericht!";
 $email_body = "U heeft een nieuw bericht van $naam.\n".
     "email adres: $email.\n".
     "Bericht: \n $bericht".
@@ -26,3 +26,4 @@ $email_body = "U heeft een nieuw bericht van $naam.\n".
 
 // verzend de email
 mail($to,$email_subject,$email_body,$headers);
+?>
