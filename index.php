@@ -10,6 +10,21 @@
                     <li data-app-prevent-settings="" data-target="#slider3-h" class="" data-slide-to="1"></li>
                     <li data-app-prevent-settings="" data-target="#slider3-h" data-slide-to="2"></li>
                 </ol>
+                
+                
+                
+                <?php 
+                
+                $dir = "";
+                
+                
+                
+                
+                
+                ?>
+                
+                
+                
                 <div class="carousel-inner" role="listbox">
                     <div class="mbr-section mbr-section-hero carousel-item dark center active" data-bg-video-slide="false">
                         <div class="mbr-table-cell">
@@ -22,12 +37,14 @@
                                         <p class="mbr-section-lead lead"><i>"Als het klikt, maak ik de foto"</i></p>
                                         <div class="mbr-section-btn">
                                             <a class="btn btn-lg btn-warning" href="#Section-Gallerij">Gallerij</a>
-                                            <a class="btn btn-lg btn-warning" href="Login.php">Login</a> </div>
+                                            <a class="btn btn-lg btn-warning" href="Login.php">Login</a> 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="mbr-section mbr-section-hero carousel-item dark center" data-bg-video-slide="false">
                       <div class="mbr-table-cell">
                         <div class="mbr-overlay"></div>
