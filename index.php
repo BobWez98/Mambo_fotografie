@@ -119,12 +119,13 @@
         </div>
 </section>
     <br />
+
     <!-- HIER EINDIGT HET STUKJE 'OVER'-->
     <!-- HIER START DE GALLERIJ --> 
-     
-    <div class="gallery" >
+     <section id="gallery">
+    <div class="gallery">
    
-        <div class="container">
+        <div class="container-fluid">
 
         <div class="row">
             <div class="col-lg-12">
@@ -175,18 +176,23 @@
                 </div>
         </div>
     </div>
+            </div>
+        </div>
             
             <br />
             <br />
-           
+        </section>
            
      <!-- EINDE GALLERIJ --> 
      <!-- TARIEVEN -->
      <section id="tarieven">
            
-            <div class="container-fluid">
+            <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
                 <h1> Tarieven </h1> <br />
-                <div>
+                
                     <!-- Nav tabs -->
                     
                         <ul class="nav nav-tabs" role="tablist" >
@@ -255,6 +261,7 @@
                         </div>
                     </div>
         </div>
+         </div>
         </section>
 <!-- EINDE TARIEVEN -->
     
