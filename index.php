@@ -201,12 +201,12 @@
                     <!-- Nav tabs -->
                     <div style="   position:relative; top:50%; left:7%; ">
                         <ul class="nav nav-tabs" role="tablist" >
-                            <li role="presentation" ><a class="btn btn-warning" href="#Trouwreportages" aria-controls="home" role="tab" data-toggle="tab">Trouwreportages</a></li>
-                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Portretfotografie" aria-controls="profile" role="tab" data-toggle="tab">Portretfotografie</a></li>
-                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Familie" aria-controls="messages" role="tab" data-toggle="tab">Familie & gezin</a></li>
-                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Zwanger" aria-controls="messages" role="tab" data-toggle="tab">Zwangerschapsshoots</a></li>
+                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Trouwreportages"    aria-controls="home"     role="tab" data-toggle="tab">Trouwreportages</a></li>
+                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Portretfotografie"  aria-controls="profile"  role="tab" data-toggle="tab">Portretfotografie</a></li>
+                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Familie"            aria-controls="messages" role="tab" data-toggle="tab">Familie & gezin</a></li>
+                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Zwanger"            aria-controls="messages" role="tab" data-toggle="tab">Zwangerschapsshoots</a></li>
                             <li role="presentation"><a class="btn btn-warning btn-xs" href="#Bedrijfsportretten" aria-controls="settings" role="tab" data-toggle="tab">Bedrijfsportretten</a></li>
-                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Let_op" aria-controls="settings" role="tab" data-toggle="tab">Let op!</a></li>
+                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Let_op"             aria-controls="settings" role="tab" data-toggle="tab">Let op!</a></li>
                         </ul>
                 </div>
             
