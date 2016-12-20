@@ -128,22 +128,26 @@
         <div class="container">
 
         <div class="row">
-<<<<<<< HEAD
-            <div class="col-lg-12>
-                <center><h1 class="page-header">Fotogallerij</h1></center>
-=======
+
             <div class="col-lg-12">
-                <h1 class="page-header">Fotogallerij</h1>
+                <center><h1 class="page-header">Fotogallerij</h1></center>
+
+    <div class="col-lg-12">
+                
             </div>
->>>>>>> 199c61d4b78b69c6f7d1678883365d8a12a85a1c
+
             
             <br />
             <br />
-            <div>
+            <div style="   position:relative; top:50%; left:40%; ">
                 <ul class="nav nav-tabs" role="tablist" >
                 <li class="active" role="presentation"><a class="btn btn-warning btn-xs" href="#huwelijken" aria-controls="home" role="tab" data-toggle="tab">Portretten</a></li>
                 <li role="presentation"><a class="btn btn-warning btn-xs" href="#portretten" aria-controls="profile" role="tab" data-toggle="tab">Huwelijken</a></li>
+                    <br />
+                    <br />
             </div>
+                
+                
                 </div>
             <br />
             <br />
@@ -203,7 +207,7 @@
                 <center> <h1> Tarieven </h1></center> <br />
                 
                     <!-- Nav tabs -->
-                    
+                    <div style="   position:relative; top:50%; left:7%; ">
                         <ul class="nav nav-tabs" role="tablist" >
                             <li role="presentation" ><a class="btn btn-warning" href="#Trouwreportages" aria-controls="home" role="tab" data-toggle="tab">Trouwreportages</a></li>
                             <li role="presentation"><a class="btn btn-warning btn-xs" href="#Portretfotografie" aria-controls="profile" role="tab" data-toggle="tab">Portretfotografie</a></li>
@@ -212,7 +216,7 @@
                             <li role="presentation"><a class="btn btn-warning btn-xs" href="#Bedrijfsportretten" aria-controls="settings" role="tab" data-toggle="tab">Bedrijfsportretten</a></li>
                             <li role="presentation"><a class="btn btn-warning btn-xs" href="#Let_op" aria-controls="settings" role="tab" data-toggle="tab">Let op!</a></li>
                         </ul>
-                
+                </div>
             
             <br /> <br />
                             <div class="tab-content">
