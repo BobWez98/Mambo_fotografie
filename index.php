@@ -15,7 +15,29 @@
                 
                 <?php 
                 
-                $dir = "";
+                
+                
+                        
+                
+                        $dir = "./assets/carousel-items/";
+                        $exclude = array( ".","..","error_log","_notes" );
+                        if (is_dir($dir)) {
+                        $images = scandir($dir);
+                        foreach(array_slice($images, 2) as $image){
+                        if(!in_array($images,$exclude)){
+                                echo '
+                                    <div class="mbr-section mbr-section-hero carousel-item dark center active" data-bg-video-slide="false">
+                                      <div class="mbr-table-cell">
+                                          <div class="mbr-overlay" style="opacity: 0.6;"></div>
+                                            <div class="container-slide">
+                                              <img src="'.$dir.$file.'">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>'; 
+                                } 
+                            }
+                        }
                 
                 
                 
