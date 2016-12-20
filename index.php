@@ -6,40 +6,42 @@
         <div>
             <div>
                 <ol class="carousel-indicators">
-                    <li data-app-prevent-settings="" data-target="#slider3-h" data-slide-to="0" class="active"></li><li data-app-prevent-settings="" data-target="#slider3-h" class="" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider3-h" data-slide-to="2"></li>
+                    <li data-app-prevent-settings="" data-target="#slider3-h" data-slide-to="0" class="active"></li>
+                    <li data-app-prevent-settings="" data-target="#slider3-h" class="" data-slide-to="1"></li>
+                    <li data-app-prevent-settings="" data-target="#slider3-h" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="mbr-section mbr-section-hero carousel-item dark center active" data-bg-video-slide="false">
                         <div class="mbr-table-cell">
                             <div class="mbr-overlay" style="opacity: 0.6;"></div>
                             <div class="container-slide">
-                                <img src="assets\images\foto_1.jpg">
+                                <img src="http://placehold.it/1200x800">
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2 text-xs-center">
                                         <h2 class="mbr-section-title display-1">Mambo Fotografie</h2>
                                         <p class="mbr-section-lead lead"><i>"Als het klikt, maak ik de foto"</i></p>
-
-                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-warning" href="#Section-Gallerij">Gallerij</a> <a class="btn btn-lg btn-warning" href="Login.php">Login</a> </div>
+                                        <div class="mbr-section-btn">
+                                            <a class="btn btn-lg btn-warning" href="#Section-Gallerij">Gallerij</a>
+                                            <a class="btn btn-lg btn-warning" href="Login.php">Login</a> </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div><div class="mbr-section mbr-section-hero carousel-item dark center" data-bg-video-slide="false">
-                        <div class="mbr-table-cell">
-                            <div class="mbr-overlay"></div>
-                            <div class="container-slide">
-                                <img src="assets\images\bridge55.jpg">
-                                <div class="row">
-                                    <div class="col-md-8 col-md-offset-1">
-                                        <h2 class="mbr-section-title display-1"></h2>
-                                        
-
-                                        
-                                    </div>
+                    </div>
+                    <div class="mbr-section mbr-section-hero carousel-item dark center" data-bg-video-slide="false">
+                      <div class="mbr-table-cell">
+                        <div class="mbr-overlay"></div>
+                          <div class="container-slide">
+                             <img src="assets\images\bridge55.jpg">
+                              <div class="row">
+                                <div class="col-md-8 col-md-offset-1">
+                                  <h2 class="mbr-section-title display-1"></h2>
                                 </div>
                             </div>
                         </div>
-                    </div><div class="mbr-section mbr-section-hero carousel-item dark center" data-bg-video-slide="false">
+                    </div>
+                </div>
+                    <div class="mbr-section mbr-section-hero carousel-item dark center" data-bg-video-slide="false">
                         <div class="mbr-table-cell">
                             <div class="mbr-overlay"></div>
                             <div class="container-slide">
@@ -71,10 +73,8 @@
 </section>
 
     <!-- HIER HET STUKJE 'OVER'-->
-    <section id="over">
-        <div class="container-fluid text-md-center">
-            
-                
+            <section id="over">
+                <div class="container-fluid text-md-center">
                     <h1 style="font-size: 60px"> Over </h1> <br />
                     <img src="visitekaartje%20blank%20org.jpg"><br /> <br />
                 
@@ -97,7 +97,6 @@
                     Met vriendelijke groet,<br />
                     Mart Marbus
                     </p> 
-                
                 </div>
             </div>
         </div>
