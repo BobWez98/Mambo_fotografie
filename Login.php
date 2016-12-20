@@ -20,93 +20,78 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
-  
-  
 </head>
+    
 <body>
-<section id="menu-k">
-
+  <section id="menu-k">
     <nav class="navbar navbar-dropdown navbar-fixed-top">
         <div class="container">
-
             <div class="mbr-table">
                 <div class="mbr-table-cell">
-
+                    
                     <div class="navbar-brand">
                         <a href="index.php" class="mbri-camera mbr-iconfont mbr-iconfont-menu navbar-logo"></a>
                         <a class="navbar-caption" href="index.php">Mambo Fotografie</a>
                     </div>
-
                 </div>
+                
                 <div class="mbr-table-cell">
-
                     <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
                         <div class="hamburger-icon"></div>
                     </button>
+                    
 
-                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="index.php">HOME</a></li><li class="nav-item"><a class="nav-link link" href="index.php">GALLERIJ</a></li><li class="nav-item"><a class="nav-link link" href="index.php#over"Fcon>OVER</a></li><li class="nav-item nav-btn"><a class="nav-link btn btn-white btn-white-outline" href="login.php">LOGIN</a></li></ul>
+                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
+                        <li class="nav-item"><a class="nav-link link" href="index.php">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link link" href="index.php">GALLERIJ</a></li>
+                        <li class="nav-item"><a class="nav-link link" href="index.php#over"Fcon>OVER</a></li>
+                        <li class="nav-item nav-btn"><a class="nav-link btn btn-white btn-white-outline" href="login.php">LOGIN</a></li>
+                    </ul>
+                    
                     <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
                         <div class="close-icon"></div>
                     </button>
-
                 </div>
             </div>
-
         </div>
     </nav>
+  </section>
 
-</section>
-
-<section class="engine"><a rel="external" href="index.php">free web site building</a></section><section class="mbr-section mbr-after-navbar" id="form1-l" style="background-color: rgb(255, 255, 255); padding-top: 160px; padding-bottom: 160px;">
-    
-    <div class="mbr-section mbr-section__container mbr-section__container--middle">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-xs-center">
-                    <h3 class="mbr-section-title display-2">LOGIN</h3>
-                    
+<section class="engine"><a rel="external" href="index.php">free web site building</a></section>
+    <section class="mbr-section mbr-after-navbar" id="form1-l" style="background-color: rgb(255, 255, 255); padding-top: 160px; padding-bottom: 160px;">
+        <div class="mbr-section mbr-section__container mbr-section__container--middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-xs-center">
+                        <h3 class="mbr-section-title display-2">LOGIN</h3>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="mbr-section mbr-section-nopadding">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-lg-10 col-lg-offset-1" data-form-type="formoid">
 
-
-                    
-
-
-                    <form action="login-action.php" method="post">
-
-                        
-
-                        <div class="row row-sm-offset">
-
-                            <div class="col-xs-12 col-md-6">
-                                <div class="form-group">
-                                    <label class="form-control-label" for="form1-l-name">E-Mail</label>
-                                    <input type="text" class="form-control" name="E-Mail" required="" id="form1-l-name">
+        <div class="mbr-section mbr-section-nopadding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-10 col-lg-offset-1" data-form-type="formoid">
+                        <form action="login-action.php" method="post">
+                            <div class="row row-sm-offset">
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="form1-l-name">E-Mail</label>
+                                        <input type="text" class="form-control" name="E-Mail" required="" id="form1-l-name">
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-12 col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="form1-l-phone">Wachtwoord</label>
+                                        <input type="password" class="form-control" name="Wachtwoord" data-form-field="Wachtwoord" id="form1-l-phone">
+                                    </div>
                                 </div>
                             </div>
-
-                            
-
-                            <div class="col-xs-12 col-md-6">
-                                <div class="form-group">
-                                    <label class="form-control-label" for="form1-l-phone">Wachtwoord</label>
-                                    <input type="password" class="form-control" name="Wachtwoord" data-form-field="Wachtwoord" id="form1-l-phone">
-                                </div>
-                            </div>
-
+                        <div>
+                            <button type="submit" class="btn btn-primary">Login</button>
                         </div>
-
-                       
-
-                        <div><button type="submit" class="btn btn-primary">Login</button></div>
-
                     </form>
                 </div>
             </div>
