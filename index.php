@@ -108,7 +108,7 @@
      <section id="gallery">
     <div class="gallery">
    
-        <div class="container-fluid">
+        <div class="container">
 
         <div class="row">
             <div class="col-lg-12">

@@ -64,8 +64,9 @@ session_start();
 
                     <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
                         <li class="nav-item"><a class="nav-link link" href="index.php">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link link" href="index.php">GALLERIJ</a></li>
-                        <li class="nav-item"><a class="nav-link link" href="index.php#over"Fcon>OVER</a></li>
+                        <li class="nav-item"><a class="nav-link link" href="#gallery">GALLERIJ</a></li>
+                        <li class="nav-item"><a class="nav-link link" href="#tarieven">TARIEVEN</a></li>
+                        <li class="nav-item"><a class="nav-link link" href="#over"Fcon>OVER</a></li>
                         <li class="nav-item nav-btn"><a class="nav-link btn btn-white btn-white-outline" href="login.php">LOGIN</a></li>
                     </ul>
                     
