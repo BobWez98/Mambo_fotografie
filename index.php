@@ -130,7 +130,7 @@
                         $exclude = array( ".","..","error_log","_notes" );
                         if (is_dir($dir)) {
                         $files = scandir($dir);
-                        foreach($files as $file){
+                        foreach(array_slice($files, 2) as $file){
                         if(!in_array($files,$exclude)){
                                 echo '<div class="col-lg-3 col-md-4 col-xs-6 thumb">
                                         <img  style="width:100%; " class="img-responsive" src="'.$dir.$file.'">
@@ -147,7 +147,7 @@
                         $exclude = array( ".","..","error_log","_notes" );
                         if (is_dir($dir)) {
                         $files = scandir($dir);
-                        foreach($files as $file){
+                        foreach(array_slice($files, 2) as $file){
                         if(!in_array($files,$exclude)){
                                 echo '<div class="col-lg-3 col-md-4 col-xs-6 thumb">
                                         <img  style="width:100%; " class="img-responsive" src="'.$dir.$file.'">
