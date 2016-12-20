@@ -13,7 +13,7 @@
                 
                 
                 
-                <?php 
+            <!--    --><?php /*
                 
                 
                 
@@ -23,31 +23,44 @@
                         $exclude = array( ".","..","error_log","_notes" );
                         if (is_dir($dir)) {
                         $images = scandir($dir);
+
+                          echo'<ol class="carousel-indicators">';
+                                   
+
                         foreach(array_slice($images, 2) as $image){
+                            echo'<li data-app-prevent-settings="" data-target="#slider3-h" data-slide-to="0">';
                         if(!in_array($images,$exclude)){
                                 echo '
+                                    <div class="carousel-inner" role="listbox">
                                     <div class="mbr-section mbr-section-hero carousel-item dark center active" data-bg-video-slide="false">
                                       <div class="mbr-table-cell">
                                           <div class="mbr-overlay" style="opacity: 0.6;"></div>
                                             <div class="container-slide">
                                               <img src="'.$dir.$file.'">
-                                            </div>
-                                        </div>
+                                              <div class="row">
+                                                <div class="col-md-8 col-md-offset-1">
+                                                     <h2 class="mbr-section-title display-1"></h2>
+                                                 </div>
+                                                </div>
+                                             </div>
+                                         </div>
                                     </div>
-                                </div>'; 
+                                </div>
+                                </div<';
                                 } 
                             }
+                            echo"</ol>";
                         }
                 
                 
                 
                 
                 
-                ?>
+                */?>
                 
                 
                 
-                <div class="carousel-inner" role="listbox">
+               <div class="carousel-inner" role="listbox">
                     <div class="mbr-section mbr-section-hero carousel-item dark center active" data-bg-video-slide="false">
                         <div class="mbr-table-cell">
                             <div class="mbr-overlay" style="opacity: 0.6;"></div>
@@ -58,7 +71,7 @@
                                         <h2 class="mbr-section-title display-1">Mambo Fotografie</h2>
                                         <p class="mbr-section-lead lead"><i>"Als het klikt, maak ik de foto"</i></p>
                                         <div class="mbr-section-btn">
-                                            <a class="btn btn-lg btn-warning" href="#Section-Gallerij">Gallerij</a>
+                                            <a class="btn btn-lg btn-warning" href="#gallery">Gallerij</a>
                                             <a class="btn btn-lg btn-warning" href="Login.php">Login</a> 
                                         </div>
                                     </div>
@@ -71,7 +84,7 @@
                       <div class="mbr-table-cell">
                         <div class="mbr-overlay"></div>
                           <div class="container-slide">
-                             <img src="assets\images\bridge55.jpg">
+                             <img src="http://placehold.it/1200x800">
                               <div class="row">
                                 <div class="col-md-8 col-md-offset-1">
                                   <h2 class="mbr-section-title display-1"></h2>
@@ -84,7 +97,7 @@
                         <div class="mbr-table-cell">
                             <div class="mbr-overlay"></div>
                             <div class="container-slide">
-                                <img src="assets/images/foto_3.jpg">
+                                <img src="http://placehold.it/1200x800">
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-3 text-xs-right">
                                         <h2 class="mbr-section-title display-1"></h2>
@@ -143,79 +156,76 @@
     <br />
 
     <!-- HIER EINDIGT HET STUKJE 'OVER'-->
-    <!-- HIER START DE GALLERIJ --> 
-     <section id="gallery">
+<!-- HIER START DE GALLERIJ -->
+<section id="gallery">
     <div class="gallery">
-   
+
         <div class="container">
 
-        <div class="row">
-<<<<<<< HEAD
-            <div class="col-lg-12>
-                <center><h1 class="page-header">Fotogallerij</h1></center>
-=======
-            <div class="col-lg-12">
-                <h1 class="page-header">Fotogallerij</h1>
-            </div>
->>>>>>> 199c61d4b78b69c6f7d1678883365d8a12a85a1c
-            
-            <br />
-            <br />
-            <div>
-                <ul class="nav nav-tabs" role="tablist" >
-                <li class="active" role="presentation"><a class="btn btn-warning btn-xs" href="#huwelijken" aria-controls="home" role="tab" data-toggle="tab">Portretten</a></li>
-                <li role="presentation"><a class="btn btn-warning btn-xs" href="#portretten" aria-controls="profile" role="tab" data-toggle="tab">Huwelijken</a></li>
-            </div>
+            <div class="row">
+
+                <div class="col-lg-12>
+
+
+                <div class="col-lg-12">
+                    <h1 class="page-header">Fotogalerij</h1>
                 </div>
+
+                <br />
+                <br />
+
+                <div>
+                    <ul class="nav nav-tabs" role="tablist" >
+
+                        <?php
+                        $directory = 'assets/images/';
+                        $scanned_directory = array_diff(scandir($directory), array('..', '.'));
+                        foreach ($scanned_directory as $key => $value)
+                        {
+                            echo "<li role=\"presentation\"><a class=\"btn btn-warning btn-xs\" href=\"#".$value."\" role=\"tab\" data-toggle=\"tab\">".$value."</a></li>";
+                        }
+                        ?>
+                    </ul>
+                </div>
+            </div>
             <br />
             <br />
             <div class="tab-content">
-                
-                <div role="tabpanel" class="tab-pane" id="huwelijken">
-                    <?php 
-                        // Ben een heel eind gekomen met de gallerij, moet alleen nog even kijken of ik wat minder whitespace ertussen kan krijgen en de eerste 2 afbeeldingen kan fixen.
-                        $dir = "assets/images/Huwelijken/";
-                        $exclude = array( ".","..","error_log","_notes" );
-                        if (is_dir($dir)) {
+
+
+                <?php
+
+                foreach ($scanned_directory as $key => $value)
+                {
+                    echo "<div role=\"tabpanel\" class=\"tab-pane\" id=\"".$value."\">";
+                    $dir = $directory.$value;
+                    $exclude = array( ".","..","error_log","_notes" );
+                    if (is_dir($dir)) {
                         $files = scandir($dir);
                         foreach(array_slice($files, 2) as $file){
-                        if(!in_array($files,$exclude)){
+                            if(!in_array($files,$exclude)){
                                 echo '<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                                        <img  style="width:100%; " class="img-responsive" src="'.$dir.$file.'">
-                                    </div>'; 
-                                } 
+									<img  style="width:100%; " class="img-responsive" src="'.$dir."/".$file.'">
+								</div>';
                             }
                         }
-                    ?>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="portretten">
-                    <?php 
-                        // Ben een heel eind gekomen met de gallerij, moet alleen nog even kijken of ik wat minder whitespace ertussen kan krijgen en de eerste 2 afbeeldingen kan fixen.
-                        $dir = "assets/images/portretten/";
-                        $exclude = array( ".","..","error_log","_notes" );
-                        if (is_dir($dir)) {
-                        $files = scandir($dir);
-                        foreach(array_slice($files, 2) as $file){
-                        if(!in_array($files,$exclude)){
-                                echo '<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                                        <img  style="width:100%; " class="img-responsive" src="'.$dir.$file.'">
-                                    </div>'; 
-                                } 
-                            }
-                        }
-                    ?>
-                </div>
-        </div>
-    </div>
+                    }
+                    echo "</div>";
+                }
+
+                ?>
+
             </div>
         </div>
-            
-            <br />
-            <br />
-        </section>
-           
-     <!-- EINDE GALLERIJ --> 
-     <!-- TARIEVEN -->
+    </div>
+    </div>
+
+    <br />
+    <br />
+</section>
+
+<!-- EINDE GALLERIJ -->
+<!-- TARIEVEN -->
      <section id="tarieven">
            
             <div class="container">

@@ -7,8 +7,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD
-   Site made with Mobirise Website Builder v3.9.2, https://mobirise.com -->
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v3.9.2, mobirise.com">-->
