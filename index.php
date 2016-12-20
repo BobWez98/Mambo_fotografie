@@ -10,7 +10,7 @@
                     <li data-app-prevent-settings="" data-target="#slider3-h" class="" data-slide-to="1"></li>
                     <li data-app-prevent-settings="" data-target="#slider3-h" data-slide-to="2"></li>
                 </ol>
-                
+                <div class="carousel-inner" role="listbox">
                 
                 
             <!--    --><?php /*
@@ -19,7 +19,7 @@
                 
                         
                 
-                        $dir = "./assets/carousel-items/";
+                        $dir = "./assets/carousel-item/";
                         $exclude = array( ".","..","error_log","_notes" );
                         if (is_dir($dir)) {
                         $images = scandir($dir);
@@ -31,6 +31,7 @@
                             echo'<li data-app-prevent-settings="" data-target="#slider3-h" data-slide-to="0">';
                         if(!in_array($images,$exclude)){
                                 echo '
+<<<<<<< HEAD
                                     <div class="carousel-inner" role="listbox">
                                     <div class="mbr-section mbr-section-hero carousel-item dark center active" data-bg-video-slide="false">
                                       <div class="mbr-table-cell">
@@ -47,6 +48,17 @@
                                     </div>
                                 </div>
                                 </div<';
+=======
+                                <div class="mbr-section mbr-section-hero carousel-item dark center" data-bg-video-slide="false">
+                                  <div class="mbr-table-cell">
+                                    <div class="mbr-overlay"></div>
+                                      <div class="container-slide">
+                                         <img src="'.$dir.$image.'">
+                                    </div>
+                                </div>
+                            </div>
+                '; 
+>>>>>>> e83aaf723df53cfbb2d8b6e6645543561966f51e
                                 } 
                             }
                             echo"</ol>";
@@ -60,7 +72,11 @@
                 
                 
                 
+<<<<<<< HEAD
                <div class="carousel-inner" role="listbox">
+=======
+                
+>>>>>>> e83aaf723df53cfbb2d8b6e6645543561966f51e
                     <div class="mbr-section mbr-section-hero carousel-item dark center active" data-bg-video-slide="false">
                         <div class="mbr-table-cell">
                             <div class="mbr-overlay" style="opacity: 0.6;"></div>
@@ -79,6 +95,7 @@
                             </div>
                         </div>
                     </div>
+<<<<<<< HEAD
 
                     <div class="mbr-section mbr-section-hero carousel-item dark center" data-bg-video-slide="false">
                       <div class="mbr-table-cell">
@@ -109,6 +126,8 @@
                             </div>
                         </div>
                     </div>
+=======
+>>>>>>> e83aaf723df53cfbb2d8b6e6645543561966f51e
                 </div>
 
                 <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="#slider3-h">
@@ -243,12 +262,12 @@
                     <!-- Nav tabs -->
                     <div>
                         <ul class="nav nav-tabs" role="tablist" >
-                            <li role="presentation" ><a class="btn btn-warning" href="#Trouwreportages" aria-controls="home" role="tab" data-toggle="tab">Trouwreportages</a></li>
-                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Portretfotografie" aria-controls="profile" role="tab" data-toggle="tab">Portretfotografie</a></li>
-                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Familie" aria-controls="messages" role="tab" data-toggle="tab">Familie & gezin</a></li>
-                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Zwanger" aria-controls="messages" role="tab" data-toggle="tab">Zwangerschapsshoots</a></li>
+                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Trouwreportages"    aria-controls="home"     role="tab" data-toggle="tab">Trouwreportages</a></li>
+                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Portretfotografie"  aria-controls="profile"  role="tab" data-toggle="tab">Portretfotografie</a></li>
+                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Familie"            aria-controls="messages" role="tab" data-toggle="tab">Familie & gezin</a></li>
+                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Zwanger"            aria-controls="messages" role="tab" data-toggle="tab">Zwangerschapsshoots</a></li>
                             <li role="presentation"><a class="btn btn-warning btn-xs" href="#Bedrijfsportretten" aria-controls="settings" role="tab" data-toggle="tab">Bedrijfsportretten</a></li>
-                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Let_op" aria-controls="settings" role="tab" data-toggle="tab">Let op!</a></li>
+                            <li role="presentation"><a class="btn btn-warning btn-xs" href="#Let_op"             aria-controls="settings" role="tab" data-toggle="tab">Let op!</a></li>
                         </ul>
                 </div>
             
