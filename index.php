@@ -162,7 +162,7 @@
 
         <div class="container">
 
-<<<<<<< HEAD
+
             <div class="row">
 
                 <div class="col-lg-12>
@@ -187,29 +187,11 @@
                         }
                         ?>
                     </ul>
-=======
-        <div class="row">
 
-            <div class="col-lg-12">
-                <center><h1 class="page-header">Fotogallerij</h1></center>
 
-    <div class="col-lg-12">
-                
-            </div>
-
-            
-            <br />
-            <br />
-            <div style="   position:relative; top:50%; left:40%; ">
-                <ul class="nav nav-tabs" role="tablist" >
-                <li class="active" role="presentation"><a class="btn btn-warning btn-xs" href="#huwelijken" aria-controls="home" role="tab" data-toggle="tab">Portretten</a></li>
-                <li role="presentation"><a class="btn btn-warning btn-xs" href="#portretten" aria-controls="profile" role="tab" data-toggle="tab">Huwelijken</a></li>
-                    <br />
-                    <br />
-            </div>
                 
                 
->>>>>>> 8de21326ff341bd25378ac16afa2edd205059ddc
+
                 </div>
             </div>
             <br />
@@ -256,10 +238,10 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <center> <h1> Tarieven </h1></center> <br />
+                 <h1> Tarieven </h1> <br />
                 
                     <!-- Nav tabs -->
-                    <div style="   position:relative; top:50%; left:7%; ">
+                    <div>
                         <ul class="nav nav-tabs" role="tablist" >
                             <li role="presentation" ><a class="btn btn-warning" href="#Trouwreportages" aria-controls="home" role="tab" data-toggle="tab">Trouwreportages</a></li>
                             <li role="presentation"><a class="btn btn-warning btn-xs" href="#Portretfotografie" aria-controls="profile" role="tab" data-toggle="tab">Portretfotografie</a></li>

@@ -66,7 +66,8 @@ session_start();
                         <li class="nav-item"><a class="nav-link link" href="#gallery">GALLERIJ</a></li>
                         <li class="nav-item"><a class="nav-link link" href="#tarieven">TARIEVEN</a></li>
                         <li class="nav-item"><a class="nav-link link" href="#over"Fcon>OVER</a></li>
-                        <li class="nav-item nav-btn"><a class="nav-link btn btn-white btn-white-outline" href="login.php">LOGIN</a></li>
+                   <?php   if(!ISSET($_SESSION['ingelogd'])){ echo" <li class=\"nav-item nav-btn\"><a class=\"nav-link btn btn-white btn-white-outline\" href=\"login.php\">LOGIN</a></li>"; } ?>
+                     <li class="nav-item nav-btn"><a class="nav-link btn btn-white btn-white-outline" href="logout.php">LOGUIT</a></li>
                     </ul>
                     
                     <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
