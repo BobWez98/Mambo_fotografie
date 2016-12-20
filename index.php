@@ -78,11 +78,11 @@
 
                 <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="#slider3-h">
                     <span class="icon-prev" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">Vorige</span>
                 </a>
                 <a data-app-prevent-settings="" class="right carousel-control" role="button" data-slide="next" href="#slider3-h">
                     <span class="icon-next" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">Volgende</span>
                 </a>
             </div>
         </div>
@@ -129,7 +129,7 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Thumbnail Gallery</h1>
+                <h1 class="page-header">Fotogallerij</h1>
             </div>
             
             <div>
